@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.medicalapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:5:5-66
+11-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:5:22-63
+12
+13    <application
+13-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:7:5-85:19
+14        android:allowBackup="true"
+14-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@drawable/applogo"
+17-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:9:9-41
+18        android:label="@string/app_name"
+18-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme" >
+21-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.example.medicalapplication.Doctorlist" />
+22-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:14:9-57
+22-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:14:19-45
+23        <activity android:name="com.example.medicalapplication.LoginActivity" >
+23-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:15:9-21:20
+23-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:15:19-48
+24            <intent-filter>
+24-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:17:17-69
+25-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:19:17-77
+27-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.medicalapplication.RegisterActivity" />
+30-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:22:9-54
+30-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:22:19-51
+31        <activity android:name="com.example.medicalapplication.AmbulanceList" >
+31-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:23:9-29:20
+31-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:23:19-48
+32            <intent-filter>
+32-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:24:13-28:29
+33                <action android:name="android.intent.action.VIEW" />
+33-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:17-69
+33-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.ALTERNATIVE" />
+35-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:17-80
+35-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:27-77
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.example.medicalapplication.BMI" />
+38-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:30:9-41
+38-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:30:19-38
+39        <activity android:name="com.example.medicalapplication.MedicalAlarm" >
+39-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:31:9-37:20
+39-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:31:19-47
+40            <intent-filter>
+40-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:24:13-28:29
+41                <action android:name="android.intent.action.VIEW" />
+41-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:17-69
+41-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.ALTERNATIVE" />
+43-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:17-80
+43-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:27-77
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.example.medicalapplication.Consult" >
+46-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:38:9-44:20
+46-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:38:19-42
+47            <intent-filter>
+47-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:24:13-28:29
+48                <action android:name="android.intent.action.VIEW" />
+48-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:17-69
+48-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:25-66
+49
+50                <category android:name="android.intent.category.ALTERNATIVE" />
+50-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:17-80
+50-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:27-77
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.example.medicalapplication.Symptom" >
+53-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:45:9-51:20
+53-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:45:19-42
+54            <intent-filter>
+54-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:24:13-28:29
+55                <action android:name="android.intent.action.VIEW" />
+55-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:17-69
+55-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:25-66
+56
+57                <category android:name="android.intent.category.ALTERNATIVE" />
+57-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:17-80
+57-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:27-77
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.example.medicalapplication.Hospital" >
+60-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:52:9-58:20
+60-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:52:19-43
+61            <intent-filter>
+61-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:24:13-28:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:17-69
+62-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:25-66
+63
+64                <category android:name="android.intent.category.ALTERNATIVE" />
+64-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:17-80
+64-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:27-77
+65            </intent-filter>
+66        </activity>
+67        <activity android:name="com.example.medicalapplication.Ambulance" >
+67-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:59:9-65:20
+67-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:59:19-44
+68            <intent-filter>
+68-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:24:13-28:29
+69                <action android:name="android.intent.action.VIEW" />
+69-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:17-69
+69-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:25-66
+70
+71                <category android:name="android.intent.category.ALTERNATIVE" />
+71-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:17-80
+71-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:27-77
+72            </intent-filter>
+73        </activity>
+74        <activity android:name="com.example.medicalapplication.Homepage" >
+74-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:66:9-72:20
+74-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:66:19-43
+75            <intent-filter>
+75-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:24:13-28:29
+76                <action android:name="android.intent.action.VIEW" />
+76-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:17-69
+76-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:25-66
+77
+78                <category android:name="android.intent.category.ALTERNATIVE" />
+78-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:17-80
+78-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:27-77
+79            </intent-filter>
+80        </activity>
+81        <activity android:name="com.example.medicalapplication.CalendarActivity" />
+81-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:73:9-54
+81-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:73:19-51
+82        <activity
+82-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:74:9-84:20
+83            android:name="com.example.medicalapplication.MediTime"
+83-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:75:13-37
+84            android:label="@string/medicalTimer"
+84-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:76:13-49
+85            android:theme="@style/AppTheme"
+85-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:77:13-44
+86            android:windowSoftInputMode="stateHidden" >
+86-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:78:13-54
+87            <intent-filter>
+87-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:24:13-28:29
+88                <action android:name="android.intent.action.VIEW" />
+88-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:17-69
+88-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:25:25-66
+89
+90                <category android:name="android.intent.category.ALTERNATIVE" />
+90-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:17-80
+90-->F:\302\Madproject\Final\MedicalApplication\app\src\main\AndroidManifest.xml:27:27-77
+91            </intent-filter>
+92        </activity>
+93
+94        <provider
+94-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+95            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+96            android:authorities="com.example.medicalapplication.lifecycle-process"
+96-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+97            android:exported="false"
+97-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+98            android:multiprocess="true" />
+98-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+99    </application>
+100
+101</manifest>
