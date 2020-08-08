@@ -3,7 +3,7 @@ AN ANDROID HEALTHCARE APP FOR YOU.
 
 # Features :
 
-# Abmulance Service: 
+# Ambulance Service: 
 This app allows the user to call emergency ambulances based on their location.
 
 # Find Hospital :
